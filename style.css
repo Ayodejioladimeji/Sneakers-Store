@@ -65,11 +65,13 @@ nav {
   background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")
     no-repeat center center/cover;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden;
 }
 
 .sliderWrapper {
   display: flex;
   width: 500vw;
+  transition: 1.5s all ease-in-out;
 }
 
 .sliderBg {
