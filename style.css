@@ -211,6 +211,91 @@ nav {
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
   }
 
+  /* payment */
+  .payment {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 0px 23px -3px rgba(0,0,0,0.86);
+  }
+
+
+  .payTitle {
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .payInput {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+
+  .payInput::placeholder {
+    color: rgb(165, 165, 165);
+  }
+
+  .cardIcons {
+    display: flex;
+  }
+
+  .cardIcon {
+    margin-right: 10px;
+  }
+
+  .cardInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sm {
+    width: 20%;
+  }
+
+  .payButton {
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    background-color:#369e62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.86);
+  }
+
+  .close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: gray;
+    color: #fff;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px;
+  }
+
+  /* product img */
   .productImg {
     width: 50%;
   }
