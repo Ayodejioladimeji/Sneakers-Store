@@ -448,11 +448,18 @@ nav {
     padding: 5px;
   }
 
-  .fbutton {
+  .fButton {
     padding: 5px;
     background-color: black;
     color: white;
     cursor: pointer;
+    border: none;
+  }
+
+  .fButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
   }
 
   .fIcons {
@@ -469,6 +476,7 @@ nav {
   .copyright {
     font-weight: 300;
     font-size: 14px;
+    color: gray;
   }
 
 
